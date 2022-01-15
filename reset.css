@@ -1,0 +1,65 @@
+/* 初始化样式 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+	font: 14px "微软雅黑";
+}
+
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+nav,
+section,
+a,
+img {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.commonTitle {
+	color: #c90606;
+	font-size: 60px;
+	line-height: 0.8;
+	font-weight: bold;
+	letter-spacing: -5px;
+}
+
+.commonText {
+	color: white;
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
